@@ -1,0 +1,26 @@
+Universe n=94, estimation T=501, test T=251, excluded=['ALAB', 'CRWV', 'HONA', 'NBIS', 'SNDK', 'SPCX']
+     mu_daily  mad_daily
+min -0.001980   0.007471
+50%  0.001055   0.013995
+max  0.006913   0.043437
+Restricted license - for non-production use only - expires 2027-11-29
+      portfolio     K  n_hold  objective  exp_return_ann  mad_daily_in  runtime_s  gap optimal checks_failed  oos_total_return  oos_ann_return  oos_ann_vol  oos_sharpe  oos_max_drawdown  oos_daily_mad
+0           K=5   5.0     5.0    -0.0043          0.3667        0.0058    98.0145  0.0    True                         -0.0171         -0.0172       0.1282     -0.3685           -0.1185         0.0062
+1          K=10  10.0    10.0    -0.0037          0.3364        0.0050    58.8427  0.0    True                          0.0351          0.0352       0.1039      0.0180           -0.1040         0.0050
+2          K=20  20.0    20.0    -0.0035          0.3352        0.0048     3.9593  0.0    True                          0.0206          0.0207       0.0956     -0.1367           -0.0728         0.0047
+3          K=50  50.0    25.0    -0.0035          0.3269        0.0048     0.9283  0.0    True                          0.0308          0.0309       0.0930     -0.0362           -0.0649         0.0046
+4      No limit   NaN    25.0    -0.0035          0.3269        0.0048     1.2398  0.0    True                          0.0308          0.0309       0.0930     -0.0362           -0.0649         0.0046
+5  Equal weight   NaN     NaN        NaN             NaN           NaN        NaN  NaN     NaN           NaN            0.4518          0.4540       0.2263      1.5994           -0.1270         0.0109
+6           QQQ   NaN     NaN        NaN             NaN           NaN        NaN  NaN     NaN           NaN            0.2380          0.2390       0.1996      0.9830           -0.1196         0.0096
+    K  milp_objective  shortcut_objective  milp_better_by_pct
+0   5       -0.004339           -0.004724            8.165513
+1  10       -0.003704           -0.003870            4.285345
+2  20       -0.003508           -0.003516            0.220159
+   lambda  n_hold_no_limit  exp_return_ann  mad_daily
+0    0.00                4        1.597635   0.028101
+1    0.25               14        0.750138   0.009464
+2    0.50               19        0.430384   0.005395
+3    1.00               25        0.326948   0.004797
+4    2.00               26        0.278744   0.004660
+5    5.00               28        0.256562   0.004631
+6   10.00               28        0.245012   0.004626
