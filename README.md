@@ -25,6 +25,7 @@ python sensiAna/experiments/04_mvo.py        # mean-variance, sample and Ledoit-
 See `sensiAna/README.md` for the exact settings used in the report.
 Results are saved in `sensiAna/results/milestone5/`.
 
+Results depend on solver time limits and a 1% optimality gap; re-running on a different machine can give slightly different portfolios. The saved results in sensiAna/results are the ones in the report.
 
 ## Run in Google Colab
 Open `milestone4_results.ipynb` in Colab and choose Runtime → Run all. It runs the whole model step by step and shows every table and chart.
