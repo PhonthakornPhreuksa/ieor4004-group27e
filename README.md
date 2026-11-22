@@ -14,6 +14,18 @@ All paths are relative to the repository, so the code runs on any machine.
 The free pip license of Gurobi (2,000 variables / 2,000 constraints) is enough
 for this model (689 variables, up to 1,192 constraints).
 
+## Milestone 5: monthly rebalancing and sensitivity analysis
+Code is in `sensiAna/`. Run from the repository root:
+
+python sensiAna/experiments/01_lambda_k.py   # base MAD + volatility-adjusted MAD, full lambda x K grid
+python sensiAna/experiments/02_robust.py     # budgeted robust MAD
+python sensiAna/experiments/03_dro.py        # Wasserstein DRO
+python sensiAna/experiments/04_mvo.py        # mean-variance, sample and Ledoit-Wolf covariance
+
+See `sensiAna/README.md` for the exact settings used in the report.
+Results are saved in `sensiAna/results/milestone5/`.
+
+
 ## Run in Google Colab
 Open `milestone4_results.ipynb` in Colab and choose Runtime → Run all. It runs the whole model step by step and shows every table and chart.
 
