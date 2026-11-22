@@ -37,3 +37,5 @@ python sensiAna/experiments/04_mvo.py --lookbacks 252 504 --time-limit 30 --gap 
 All experiments rebalance monthly. Results are saved under
 `sensiAna/results/milestone5/<experiment-group>/<run-name>/`.
 Repeat a command to resume; use a new `--run-name` to start a fresh run.
+\
+Results depend on solver time limits and a 1% optimality gap; re-running on a different machine can give slightly different portfolios. The saved results in sensiAna/results are the ones in the report.
